@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>344</width>
+    <height>354</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Expressions</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>344</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>&amp;File</string>
+    </property>
+    <addaction name="action_New"/>
+    <addaction name="action_Open"/>
+    <addaction name="separator"/>
+    <addaction name="action_Save"/>
+    <addaction name="actionSave_as"/>
+    <addaction name="separator"/>
+    <addaction name="actionCollapse_all"/>
+    <addaction name="actionExpand_all"/>
+    <addaction name="actionNew_group"/>
+    <addaction name="separator"/>
+    <addaction name="actionConnect_DDB"/>
+    <addaction name="actionHelp"/>
+    <addaction name="action_Find"/>
+    <addaction name="actionQuit"/>
+   </widget>
+   <widget class="QMenu" name="menuWindow">
+    <property name="title">
+     <string>Window</string>
+    </property>
+    <addaction name="actionBuilder"/>
+    <addaction name="actionIcons"/>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actionFont"/>
+    <addaction name="actionIcon32"/>
+    <addaction name="actionIcon24"/>
+    <addaction name="actionIcon16"/>
+    <addaction name="actionFixed_text_layout"/>
+    <addaction name="actionFlow_text_layout"/>
+    <addaction name="actionAttach_toolbox"/>
+    <addaction name="actionDropzone_max_width"/>
+    <addaction name="actionDropzone_short_size"/>
+   </widget>
+   <addaction name="menu_File"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuWindow"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_New">
+   <property name="text">
+    <string>&amp;New</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+N</string>
+   </property>
+  </action>
+  <action name="action_Open">
+   <property name="text">
+    <string>&amp;Open...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+  </action>
+  <action name="action_Save">
+   <property name="text">
+    <string>&amp;Save</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+S</string>
+   </property>
+  </action>
+  <action name="actionSave_as">
+   <property name="text">
+    <string>Save &amp;as...</string>
+   </property>
+  </action>
+  <action name="actionHelp">
+   <property name="text">
+    <string>Help</string>
+   </property>
+  </action>
+  <action name="actionBuilder">
+   <property name="text">
+    <string>Builder</string>
+   </property>
+  </action>
+  <action name="actionIcons">
+   <property name="text">
+    <string>Icons</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="text">
+    <string>Font...</string>
+   </property>
+  </action>
+  <action name="actionIcon32">
+   <property name="text">
+    <string>Icon32</string>
+   </property>
+  </action>
+  <action name="actionIcon24">
+   <property name="text">
+    <string>Icon24</string>
+   </property>
+  </action>
+  <action name="actionIcon16">
+   <property name="text">
+    <string>Icon16</string>
+   </property>
+  </action>
+  <action name="action_Find">
+   <property name="text">
+    <string>&amp;Find</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+F</string>
+   </property>
+  </action>
+  <action name="actionNew_group">
+   <property name="text">
+    <string>New group...</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <action name="actionCollapse_all">
+   <property name="text">
+    <string>Collapse all</string>
+   </property>
+  </action>
+  <action name="actionExpand_all">
+   <property name="text">
+    <string>Expand all</string>
+   </property>
+  </action>
+  <action name="actionFixed_text_layout">
+   <property name="text">
+    <string>Fixed text layout...</string>
+   </property>
+  </action>
+  <action name="actionFlow_text_layout">
+   <property name="text">
+    <string>Flow text layout</string>
+   </property>
+  </action>
+  <action name="actionAttach_toolbox">
+   <property name="text">
+    <string>Attach toolbox</string>
+   </property>
+  </action>
+  <action name="actionDropzone_max_width">
+   <property name="text">
+    <string>dropzone max width...</string>
+   </property>
+  </action>
+  <action name="actionDropzone_short_size">
+   <property name="text">
+    <string>dropzone short size...</string>
+   </property>
+  </action>
+  <action name="actionConnect_DDB">
+   <property name="text">
+    <string>Connect DDB</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
