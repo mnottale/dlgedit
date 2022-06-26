@@ -15,7 +15,7 @@ It's main features are:
   - Effects: once displayed a node can perform some actions to change the game state (scrolling the screen, moving a character, ...). Effects can execute in parallel or sequentially.
   - Fast sequence mode for interactions without any branching.
 
-![The interface](media/dlgedit.png)
+![The interface](medias/dlgedit.png)
 
 Further reading
 ---------------

@@ -13,13 +13,13 @@ It uses a set of reusable parameterizable condition and effect boxes that scenar
 When your dialog executes, it will start at the root node, pick a child node, executes it, and then go on with the picked node's children.
 When choosing between multiple nodes, the system will first filter those with non matching condition, and if multiple remains:
 
-    - If a PC level it will display all dialog options as possible choices to the player
-    - If a NPC level it will pick one at random (you can use the 'priority' condition to alter this behavior).
+- If a PC level it will display all dialog options as possible choices to the player
+- If a NPC level it will pick one at random (you can use the 'priority' condition to alter this behavior).
 
 Execution of a node is as follows:
 
-    - Display the text of the node
-    - When game code reports validation, executes all the effect boxes. Each effect line is executing in sequence. Within each line all effects are executed in parallel.
+- Display the text of the node
+- When game code reports validation, executes all the effect boxes. Each effect line is executing in sequence. Within each line all effects are executed in parallel.
 
 ## Flow control
 
@@ -27,8 +27,8 @@ When the executor reaches a node without any available children, it signals the 
 
 It is possible to have a node jump back to any other location in the tree:
 
-    - drop an 'id' condition on the jump target node and give it a name
-    - drop a 'jumpto' effect on the jump source, filling the value with the name of the 'id' node.
+- drop an 'id' condition on the jump target node and give it a name
+- drop a 'jumpto' effect on the jump source, filling the value with the name of the 'id' node.
 
 'jumpto' can also be used to jump to an other dialog file using the 'fileName:node' syntax.
 
@@ -45,9 +45,9 @@ This is the main window where you will write your interactions. When saved it pr
 
 It displays a tree of dialog nodes. Eeach node comprises three parts:
 
-    - The condition bar (green background): This where you will drag&drop and parameterize conditions.
-    - The text that the PC or NPC will say if this node triggers. Blue background is PC speaking, yellow background is an NPC speaking.
-    - The effect bar (red background): this contains multiple lines of effects that will be executed after displaying the dialog.
+- The condition bar (green background): This where you will drag&drop and parameterize conditions.
+- The text that the PC or NPC will say if this node triggers. Blue background is PC speaking, yellow background is an NPC speaking.
+- The effect bar (red background): this contains multiple lines of effects that will be executed after displaying the dialog.
 
 Nodes can be added as child of the current node using the '+' symbol.
 
@@ -80,10 +80,10 @@ In PC/NPC text you can use variables that will be expanded before being displaye
 
 Conditions and effects in dlgedit are buttons that you can design. They have:
 
-   - an icon taken from your icon library in 'assets/' folder
-   - a list of parameters that you can set by clicking on the button once dropped to a condition or effect bar
-   - a displayed text
-   - the code to execute by the executor
+- an icon taken from your icon library in 'assets/' folder
+- a list of parameters that you can set by clicking on the button once dropped to a condition or effect bar
+- a displayed text
+- the code to execute by the executor
 
 They are created using the "builder" window and saved in toolboxes, from which you can drag&drop them to your dialogs.
 
@@ -92,7 +92,7 @@ They are created using the "builder" window and saved in toolboxes, from which y
 
 To create a new condition or effect button, hit the "New" button of the builder window. To edit an existing button, drag&drop it from your toolbox to the blank area at the bottom of the builder.
 
-![Builder window](medials/window-builder.png)
+![Builder window](medias/window-builder.png)
 
 To assing an icon, just click the icon you want from the icon list window. This window spawned by default contain all images in the "assets/" folder.
 
