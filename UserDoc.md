@@ -1,8 +1,8 @@
-#Dlgedit User Manual
+# Dlgedit User Manual
 
 ![The dlgedit interface](medias/dlgedit.png)
 
-##Introduction
+## Introduction
 
 Dlgedit allows scenarist to write complex text-based interactions between the player and NPCs in your game without writing code.
 
@@ -36,7 +36,7 @@ If multiple NPC nodes will be available and you want to force one to be picked, 
 
 Finally, you can make a node be available only once per dialog session using the 'once' special condition, and make it available once only for the whole game using 'single' special condition.
 
-##Dialog Window
+## Dialog Window
 
 ![The dialog window](medias/window-dialog.png)
 
@@ -64,7 +64,7 @@ Use shift-return to expand the text line into a text area. Then start a line wit
 Example:
 
     :pj
-    Good morning I would like a bagette please
+    Good morning I would like a baguette please
     :baker
     Sorry sir, we only have croissants
 
